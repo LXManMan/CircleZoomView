@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  CircleZoomView
+//
+//  Created by zlwl001 on 2017/4/1.
+//  Copyright © 2017年 manman. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define Device_Width  [[UIScreen mainScreen] bounds].size.width
+#define Device_Height [[UIScreen mainScreen] bounds].size.height
+
+#define LBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define LBRandomColor LBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define MainColor [UIColor colorWithRed:1.000 green:0.580 blue:0.302 alpha:1.000];
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
