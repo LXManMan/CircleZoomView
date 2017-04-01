@@ -17,7 +17,6 @@
 		F6F0D5811E8F7EF2004A3DF2 /* PingInvertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F0D57E1E8F7EF1004A3DF2 /* PingInvertTransition.m */; };
 		F6F0D5821E8F7EF2004A3DF2 /* PingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F0D5801E8F7EF2004A3DF2 /* PingTransition.m */; };
 		F6F0D58B1E8F7EFB004A3DF2 /* LxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F0D5841E8F7EFB004A3DF2 /* LxButton.m */; };
-		F6F0D58C1E8F7EFB004A3DF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F0D5851E8F7EFB004A3DF2 /* main.m */; };
 		F6F0D58D1E8F7EFB004A3DF2 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F0D5871E8F7EFB004A3DF2 /* MyCell.m */; };
 		F6F0D58E1E8F7EFB004A3DF2 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F0D5881E8F7EFB004A3DF2 /* MyCell.xib */; };
 		F6F0D58F1E8F7EFB004A3DF2 /* MyLable.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F0D58A1E8F7EFB004A3DF2 /* MyLable.m */; };
@@ -43,7 +42,6 @@
 		F6F0D5801E8F7EF2004A3DF2 /* PingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingTransition.m; sourceTree = "<group>"; };
 		F6F0D5831E8F7EFB004A3DF2 /* LxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxButton.h; sourceTree = "<group>"; };
 		F6F0D5841E8F7EFB004A3DF2 /* LxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxButton.m; sourceTree = "<group>"; };
-		F6F0D5851E8F7EFB004A3DF2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F6F0D5861E8F7EFB004A3DF2 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		F6F0D5871E8F7EFB004A3DF2 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		F6F0D5881E8F7EFB004A3DF2 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
@@ -93,6 +91,7 @@
 				F6F0D5591E8F3899004A3DF2 /* Assets.xcassets */,
 				F6F0D55B1E8F3899004A3DF2 /* LaunchScreen.storyboard */,
 				F6F0D5641E8F3980004A3DF2 /* PrefixHeader.pch */,
+				F6F0D54E1E8F3899004A3DF2 /* main.m */,
 				F6F0D55E1E8F3899004A3DF2 /* Info.plist */,
 				F6F0D54D1E8F3899004A3DF2 /* Supporting Files */,
 			);
@@ -102,7 +101,6 @@
 		F6F0D54D1E8F3899004A3DF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F6F0D54E1E8F3899004A3DF2 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,7 +110,6 @@
 			children = (
 				F6F0D5831E8F7EFB004A3DF2 /* LxButton.h */,
 				F6F0D5841E8F7EFB004A3DF2 /* LxButton.m */,
-				F6F0D5851E8F7EFB004A3DF2 /* main.m */,
 				F6F0D5861E8F7EFB004A3DF2 /* MyCell.h */,
 				F6F0D5871E8F7EFB004A3DF2 /* MyCell.m */,
 				F6F0D5881E8F7EFB004A3DF2 /* MyCell.xib */,
@@ -214,7 +211,6 @@
 				F6F0D5821E8F7EF2004A3DF2 /* PingTransition.m in Sources */,
 				F6F0D58D1E8F7EFB004A3DF2 /* MyCell.m in Sources */,
 				F6F0D5721E8F48DB004A3DF2 /* DetailViewController.m in Sources */,
-				F6F0D58C1E8F7EFB004A3DF2 /* main.m in Sources */,
 				F6F0D58B1E8F7EFB004A3DF2 /* LxButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

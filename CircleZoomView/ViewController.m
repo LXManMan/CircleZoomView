@@ -33,6 +33,7 @@
     [self.view addSubview:self.button];
     self.button.layer.masksToBounds = YES;
     self.button.layer.cornerRadius = 30;
+    self.title = @"自定义转场";
     __weak ViewController *weakSelf =self;
     
     [self.button addClickBlock:^(UIButton *button) {
